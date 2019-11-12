@@ -2,7 +2,7 @@
   "name": "student-app",
   "version": "1.0.0",
   "description": "Coding Assignment To Build Student REST API Using Nodejs + Mongoose + MongoDB",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
     "build": "./node_modules/.bin/mocha --compilers js:@babel/register",
     "start": "nodemon --exec babel-node ./server.js",
